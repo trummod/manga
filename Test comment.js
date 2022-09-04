@@ -23,7 +23,6 @@ function validateName(name) {
 }
 function openComment(){
     if(login == 0){
-        alert('Vui lòng đăng nhập trước khi bình luận!');
     }else{
         $('.comment-placeholder').addClass('hidden');
         $('.main_comment .mess-input').removeClass('hidden');
@@ -100,6 +99,33 @@ function loadComment(page){
         lazyload();
     });
 }
+
+function addReply(id){
+    if(login == 0){
+        alert('Vui lòng đăng nhập trước khi bình luận!');
+    }else{
+        $('.repcomment_id_' + id).removeClass('hidden');
+        $('#name_comment_' + id).val( $('#name_comment').val());
+        $('#email_comment_' + id).val( $('#email_comment').val());
+        tinymce.init({
+            forced_root_block: !1,
+            force_br_newlines: !0,
+            force_p_newlines: !1,
+            entity_encoding: "raw",
+            selector: "#content_comment_" + id,
+            menubar: !1,
+            statusbar: !1,
+            plugins: ["autoresize", "emobabysoldier, emoonion, emobafu, emothobua, emothotuzki, emoyoyo, emopanda, emotrollface, emogif", "paste"],
+            paste_as_text: !0,
+            toolbar: "emotrollface emoonion emobafu emothobua emothotuzki emoyoyo emopanda emobabysoldier emogif",
+            height: 100,
+            autoresize_min_height: 100,
+            autoresize_max_height: 300,
+            autoresize_bottom_margin: 0,
+            setup: function (t) {
+                t.on("init", function () {
+                    this.getDoc().body.style.fontSize = "14px";
+                });
             },
             init_instance_callback: function () {
                 setTimeout(function () {
