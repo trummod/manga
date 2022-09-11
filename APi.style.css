@@ -239,3 +239,34 @@ audio,
     .col-xs-9 {
         width: 60%;
     }
+
+.div_middle {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+.alert-note-fix{
+    padding: 5px;
+}
+
+.alert-note{
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-left: 10px solid #2196f3;
+    border-right: 1px solid #2196f3;
+    border-top: 1px solid #2196f3;
+    border-bottom: 1px solid #2196f3;
+    background-color: #FFF;
+}
+.alert-note a{
+    font-weight: 600;
+    color: #f18121 !important;
+}
+.alert-note-fix{
+    padding: 5px;
+}
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
