@@ -1,0 +1,241 @@
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+}
+.mrt10{
+    margin-top: 10px;
+}
+.mrt5{
+    margin-top: 5px;
+}
+    .col-xs-3 {
+        width: 20%;
+    }
+    .col-xs-9 {
+        width: 80%;
+    }
+    .story-detail-menu {
+        text-align: center;
+    }
+    .story-detail-menu li {
+        display: inline-block;
+        width: 24%;
+    }
+    .story-detail-menu li a {
+        font-size: 14px;
+        min-width: auto;
+        margin-bottom: 7px;
+        width: 100%;
+    }
+    .li04-1{
+        margin-left: 3px;
+    }
+}
+
+@media(max-width:799px) {
+    .col-xs-3 {
+        width: 30%;
+    }
+    .col-xs-9 {
+        width: 70%;
+    }
+    .mce-container, .mce-container *, .mce-widget, .mce-widget *, .mce-reset{
+        white-space: unset !important;
+    }
+    body header .top button.dark_mode {
+        margin-left: 10px
+    }
+    body header .top .right ul li button {
+        width: auto
+    }
+
+    body.detail .content .main_content #chapter_content h1 {
+        font-size: 18px;
+        padding: 0 10px 10px 10px;
+        line-height: 25px
+    }
+
+    body.detail .content .main_content .book_detail .book_info .book_other .kind p {
+        font-size: 13px
+    }
+    body.detail .content .main_content .book_detail .book_info .book_other .book_button {
+        margin-top: 10px;
+    }
+    body.detail .content .main_content .book_detail .book_info .book_other .book_button button {
+        width: 47%;
+        margin: 10px 1%
+    }
+    body.detail .content .main_content .book_detail .book_info .book_other p.name {
+        font-size: 16px;
+    }
+    body.detail .content .main_content .chapter_content_div {
+        width: calc(100% + 20px);
+        margin-left: -10px
+    }
+
+    body.detail .content .main_content .chapter_content canvas {
+        width: calc(100% + 20px);
+        margin-left: -10px
+    }
+    body.detail .content .main_content .chapter_content .left {
+        margin-left: 10px
+    }
+    body.detail .content .main_content .chapter_content .right {
+        float: left
+    }
+
+    footer .left,
+    footer .right {
+        width: 100%;
+        float: none
+    }
+    footer .left {
+        margin-bottom: 20px
+    }
+
+    ul.list_grid li {
+        width: 31%;
+        margin: 15px 1%
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+    .messages .nav-user{
+        border-right: unset;
+    }
+    .story-detail-menu li {
+        width: 49%;
+    }
+    .schedule {
+        margin-bottom: 25px
+    }
+
+    .schedule .schedule-inner {
+        display: block;
+        width: 100%;
+        padding: 10px
+    }
+
+    .schedule .time {
+        flex: none;
+        height: auto;
+        padding: 5px 10px;
+        font-size: 105%;
+        margin-right: 0;
+        margin-bottom: 15px
+    }
+
+    .schedule .schedule-list li {
+        display: block;
+        font-size: 100%;
+        margin: 0 0 5px
+    }
+    .hero{
+        display: none;
+    }
+}
+
+@media(max-width:599px) {
+    .popup .popup_content {
+        width: 100% !important;
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: translate(0, 0)
+    }
+
+    ul.list_grid li {
+        width: 48%;
+        margin: 15px 1%
+    }
+
+    .col-md-10 {
+        width: 60%;
+    }
+
+    .col-md-2 {
+        width: 38%;
+    }
+
+    .col-xs-3 {
+        width: 40%;
+    }
+
+    .col-xs-9 {
+        width: 60%;
+    }
